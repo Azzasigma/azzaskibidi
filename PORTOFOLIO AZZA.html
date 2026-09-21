@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <title>Portofolio AZZA SIGMA - Belajar HTML Dasar</title>
+</head>
+
+<body id="atas" bgcolor="#0d0d0d" text="#ffffff" link="#ff2e63" vlink="#ff2e63" alink="#00adb5">
+
+    <!-- ======================================================= -->
+    <!-- 1. HEADER & NAVIGASI LINK SEDERHANA                      -->
+    <!-- ======================================================= -->
+    <header align="center">
+        <!-- Penggunaan tag Heading h1 sampai h3 -->
+        <h1><font color="#ff2e63" size="7" face="Arial">PORTOFOLIO AZZA SIGMA</font></h1>
+        <h3><font color="#e0e0e0" face="Arial">Selamat Datang di Halaman Profil & Pembelajaran HTML</font></h3>
+
+        <!-- Navigasi internal menggunakan anchor text link -->
+        <nav>
+            <b>
+                <a href="#tentang"><font color="#00adb5">Tentang Saya</font></a> |
+                <a href="#keahlian"><font color="#00adb5">Keahlian & Hobi</font></a> |
+                <a href="#pendidikan"><font color="#00adb5">Riwayat Pendidikan</font></a> |
+                <a href="#proyek"><font color="#00adb5">Portofolio Proyek</font></a> |
+                <a href="#kontak"><font color="#00adb5">Hubungi Saya</font></a>
+            </b>
+        </nav>
+    </header>
+
+    <!-- Garis pemisah horizontal -->
+    <hr size="4" color="#ff2e63">
+
+    <!-- ======================================================= -->
+    <!-- 2. BAGIAN TENTANG SAYA (FORMATTING TEKS & WARNA)         -->
+    <!-- ======================================================= -->
+    <section id="tentang">
+        <h2><font color="#ff2e63">Tentang Saya</font></h2>
+
+        <!-- Menampilkan gambar dengan atribut border, width, dan alt -->
+        <p align="center">
+            <img src="images.jpg" alt="Foto Profil AZZA SIGMA" width="150" height="150">
+            <br>
+            <small><i>Gambar 1: Foto Profil AZZA SIGMA</i></small>
+        </p>
+
+        <!-- Contoh berbagai macam pemformatan teks HTML murni -->
+        <p>
+            Halo! Nama saya <b><font color="#ff2e63" size="4">AZZA SIGMA</font></b>. Saya adalah seorang <i>pelajar web development</i> dengan fokus tinggi dan disiplin.
+            Saat ini saya sedang mempelajari <u>Dasar-Dasar HTML</u> tanpa bantuan styling eksternal untuk menguasai pondasi utama.
+        </p>
+
+        <!-- Pemformatan warna dan ukuran teks menggunakan tag <font> bawaan HTML -->
+        <p>
+            <font color="#ff2e63" size="4" face="Arial">
+                Teks ini berwarna merah strong dengan font Arial untuk memberikan kesan tegas.
+            </font>
+            dan
+            <font color="#00adb5" size="4">
+                teks ini berwarna cyan terang untuk menonjolkan poin penting.
+            </font>
+        </p>
+
+        <p>
+            Berikut adalah contoh tag pemformatan teks lainnya:
+        </p>
+        <!-- Daftar teks khusus: coret, sorot, cetak tebal khusus, subskrip, superskrip -->
+        <p>
+            1. <strong>Teks Kuat (Strong)</strong> untuk penekanan penting.<br>
+            2. <em>Teks Berpenekanan (Emphasis)</em> mirip huruf miring.<br>
+            3. <mark>Teks dengan Stabilo / Highlight</mark> memakai tag &lt;mark&gt;.<br>
+            4. <del>Teks yang dicoret (Delete)</del> untuk revisi atau harga lama.<br>
+            5. Rumus kimia air: H<sub>2</sub>O (menggunakan tag &lt;sub&gt;).<br>
+            6. Rumus matematika kuadrat: 5<sup>2</sup> = 25 (menggunakan tag &lt;sup&gt;).
+        </p>
+
+        <!-- Tag Blockquote untuk kutipan kata mutiara -->
+        <blockquote style="background-color: #1a1a1a; padding: 10px; border-left: 4px solid #ff2e63;">
+            <p>
+                <q>Pendidikan adalah senjata paling mematikan di dunia, karena dengan pendidikan Anda dapat mengubah dunia.</q>
+                - <b><font color="#ff2e63">Nelson Mandela</font></b>
+            </p>
+        </blockquote>
+    </section>
+
+    <hr size="1" color="#ff2e63">
+
+    <!-- ======================================================= -->
+    <!-- 3. BULLET & NUMBERING (LISTS)                           -->
+    <!-- ======================================================= -->
+    <section id="keahlian">
+        <h2><font color="#ff2e63">Keahlian, Pengalaman, dan Hobi</font></h2>
+
+        <!-- Unordered List (Bullet) -->
+        <h3>Keahlian Teknis (Bullet List)</h3>
+        <ul type="square">
+            <li>Memahami Struktur Dasar Dokumen HTML</li>
+            <li>Membuat Hyperlink dan Navigasi Halaman</li>
+            <li>Menyusun Tabel Terstruktur</li>
+            <li>Merancang Formulir Interaktif</li>
+            <li>Pengelolaan Format Teks</li>
+        </ul>
+
+        <!-- Ordered List (Numbering) dengan variasi tipe -->
+        <h3>Tahapan Belajar Web (Numbering Angka)</h3>
+        <ol type="1">
+            <li>Memahami konsep cara kerja web browser dan server</li>
+            <li>Mempelajari tag dan elemen dasar HTML</li>
+            <li>Menyusun tata letak halaman tanpa CSS</li>
+            <li>Latihan membuat formulir input data</li>
+            <li>Mengunggah file HTML ke web hosting</li>
+        </ol>
+
+        <!-- Ordered List dengan tipe huruf abjad -->
+        <h3>Aktivitas Luar Jam Belajar (Numbering Huruf)</h3>
+        <ol type="A">
+            <li>Membaca buku literasi digital</li>
+            <li>Berolahraga bulu tangkis
+                <!-- Nested List (Daftar bersarang) -->
+                <ul>
+                    <li>Jadwal: Hari Rabu dan Sabtu sore</li>
+                    <li>Lokasi: Gedung Olahraga Serbaguna</li>
+                </ul>
+            </li>
+            <li>Menulis catatan ringkasan coding</li>
+        </ol>
+
+        <!-- Definition List (Daftar Istilah & Penjelasan) -->
+        <h3>Kamus Istilah Singkat (Definition List)</h3>
+        <dl>
+            <dt><b><font color="#00adb5">HTML</font></b></dt>
+            <dd><i>HyperText Markup Language</i>, yaitu bahasa markah standar untuk pembuatan halaman web.</dd>
+
+            <dt><b><font color="#00adb5">Tag</font></b></dt>
+            <dd>Tanda kurung sudut (&lt; &gt;) yang digunakan untuk membuka dan menutup elemen HTML.</dd>
+
+            <dt><b><font color="#00adb5">Attribute</font></b></dt>
+            <dd>Informasi tambahan yang disematkan ke dalam tag pembuka (contoh: href, src, width).</dd>
+        </dl>
+    </section>
+
+    <hr size="1" color="#ff2e63">
+
+    <!-- ======================================================= -->
+    <!-- 4. TABEL (RIWAYAT PENDIDIKAN & PROYEK)                   -->
+    <!-- ======================================================= -->
+    <section id="pendidikan">
+        <h2><font color="#ff2e63">Riwayat Pendidikan & Jadwal</font></h2>
+        <p>Tabel berikut menggunakan atribut bawaan: border, cellpadding, cellspacing, dan penggabungan kolom (colspan).
+        </p>
+
+        <!-- Tabel Riwayat Pendidikan -->
+        <table border="1" cellpadding="8" cellspacing="0" width="100%" bordercolor="#ff2e63">
+            <!-- Baris Judul Tabel -->
+            <tr bgcolor="#ff2e63">
+                <th><font color="#ffffff">Tingkat</font></th>
+                <th><font color="#ffffff">Nama Sekolah / Institusi</font></th>
+                <th><font color="#ffffff">Jurusan</font></th>
+                <th><font color="#ffffff">Tahun Kelulusan</font></th>
+                <th><font color="#ffffff">Status</font></th>
+            </tr>
+            <!-- Baris Data 1 -->
+            <tr align="center" bgcolor="#1a1a1a">
+                <td>SD</td>
+                <td align="left">SD Negeri 01 Pagi</td>
+                <td>-</td>
+                <td>2015</td>
+                <td>Lulus</td>
+            </tr>
+            <!-- Baris Data 2 -->
+            <tr align="center" bgcolor="#262626">
+                <td>SMP</td>
+                <td align="left">SMP Negeri 05 Sejahtera</td>
+                <td>-</td>
+                <td>2018</td>
+                <td>Lulus</td>
+            </tr>
+            <!-- Baris Data 3 -->
+            <tr align="center" bgcolor="#1a1a1a">
+                <td>SMK / SMA</td>
+                <td align="left">SMK Komputer Harapan Bangsa</td>
+                <td>Rekayasa Perangkat Lunak</td>
+                <td>2021</td>
+                <td>Lulus</td>
+            </tr>
+            <!-- Baris dengan Colspan -->
+            <tr bgcolor="#ff2e63">
+                <td colspan="4" align="right"><b><font color="#ffffff">Total Lama Belajar Formal:</font></b></td>
+                <td align="center"><b><font color="#ffffff">12 Tahun</font></b></td>
+            </tr>
+        </table>
+    </section>
+
+    <br>
+
+    <section id="proyek">
+        <h2><font color="#ff2e63">Daftar Proyek Latihan</font></h2>
+
+        <!-- Tabel Proyek dengan Rowspan -->
+        <table border="1" cellpadding="6" cellspacing="2" width="100%" bordercolor="#00adb5">
+            <tr bgcolor="#00adb5">
+                <th><font color="#0d0d0d">No</font></th>
+                <th><font color="#0d0d0d">Kategori</font></th>
+                <th><font color="#0d0d0d">Nama Proyek</font></th>
+                <th><font color="#0d0d0d">Target Selesai</font></th>
+            </tr>
+            <tr bgcolor="#1a1a1a">
+                <td align="center">1</td>
+                <!-- Rowspan menggabungkan 2 baris kategori yang sama -->
+                <td rowspan="2" align="center" bgcolor="#262626"><b><font color="#ff2e63">HTML Sederhana</font></b></td>
+                <td>Halaman Biodata Diri AZZA SIGMA</td>
+                <td>Selesai</td>
+            </tr>
+            <tr bgcolor="#1a1a1a">
+                <td align="center">2</td>
+                <td>Portofolio Kurikulum Berbasis Tabel</td>
+                <td>Dalam Pengerjaan</td>
+            </tr>
+            <tr bgcolor="#1a1a1a">
+                <td align="center">3</td>
+                <td align="center" bgcolor="#262626"><b><font color="#ff2e63">Interaktif</font></b></td>
+                <td>Formulir Survei Komunitas</td>
+                <td>Rencana Mendatang</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr size="1" color="#ff2e63">
+
+    <!-- ======================================================= -->
+    <!-- 5. FORMULIR INTERAKTIF (FORM LENGKAP)                   -->
+    <!-- ======================================================= -->
+    <section id="kontak">
+        <h2><font color="#ff2e63">Hubungi AZZA SIGMA</font></h2>
+        <p>Silakan isi formulir di bawah ini untuk mengirimkan pesan, kritik, atau saran latihan HTML:</p>
+
+        <form action="#" method="post">
+            <!-- Fieldset dan Legend untuk mengelompokkan form -->
+            <fieldset style="border-color: #ff2e63; background-color: #1a1a1a;">
+                <legend><b><font color="#ff2e63">Formulir Pesan & Identitas Pengunjung</font></b></legend>
+
+                <!-- Input Teks Biasa -->
+                <p>
+                    <label for="nama">Nama Lengkap:</label><br>
+                    <input type="text" id="nama" name="nama" size="40" placeholder="Ketik nama Anda di sini..." required>
+                </p>
+
+                <!-- Input Email -->
+                <p>
+                    <label for="email">Alamat Email:</label><br>
+                    <input type="email" id="email" name="email" size="40" placeholder="nama@email.com" required>
+                </p>
+
+                <!-- Input Nomor Telepon -->
+                <p>
+                    <label for="telepon">Nomor WhatsApp / HP:</label><br>
+                    <input type="tel" id="telepon" name="telepon" size="40" placeholder="08xxxxxxxxxx">
+                </p>
+
+                <!-- Input Radio Button (Pilihan Tunggal) -->
+                <p>
+                    Jenis Kelamin:<br>
+                    <input type="radio" id="pria" name="gender" value="Laki-laki">
+                    <label for="pria">Laki-laki</label>
+                    <input type="radio" id="wanita" name="gender" value="Perempuan">
+                    <label for="wanita">Perempuan</label>
+                </p>
+
+                <!-- Dropdown Select -->
+                <p>
+                    <label for="kategori">Alasan Menghubungi:</label><br>
+                    <select id="kategori" name="kategori">
+                        <option value="">-- Silakan Pilih Kategori --</option>
+                        <option value="tanya">Pertanyaan seputar HTML</option>
+                        <option value="kolaborasi">Mengajak Kolaborasi</option>
+                        <option value="saran">Memberikan Saran Perbaikan</option>
+                        <option value="lainnya">Lain-lain</option>
+                    </select>
+                </p>
+
+                <!-- Checkbox (Pilihan Jamak) -->
+                <p>
+                    Topik HTML yang ingin Anda pelajari bersama:<br>
+                    <input type="checkbox" id="topik1" name="topik" value="Teks">
+                    <label for="topik1">Formatting Teks & Warna</label><br>
+                    <input type="checkbox" id="topik2" name="topik" value="List">
+                    <label for="topik2">Daftar (List)</label><br>
+                    <input type="checkbox" id="topik3" name="topik" value="Tabel">
+                    <label for="topik3">Tabel (Rowspan & Colspan)</label><br>
+                    <input type="checkbox" id="topik4" name="topik" value="Form">
+                    <label for="topik4">Elemen Form & Input</label>
+                </p>
+
+                <!-- Textarea untuk pesan panjang -->
+                <p>
+                    <label for="pesan">Pesan atau Masukan:</label><br>
+                    <textarea id="pesan" name="pesan" rows="6" cols="45" placeholder="Tuliskan pesan Anda di sini..."></textarea>
+                </p>
+
+                <!-- Tombol Submit dan Reset -->
+                <p>
+                    <input type="submit" value="Kirim Pesan" style="background-color: #ff2e63; color: white; border: none; padding: 8px 16px; font-weight: bold; cursor: pointer;">
+                    <input type="reset" value="Kosongkan Form" style="background-color: #333333; color: white; border: none; padding: 8px 16px; cursor: pointer;">
+                </p>
+            </fieldset>
+        </form>
+    </section>
+
+    <!-- ======================================================= -->
+    <!-- 6. TAMBAHAN ELEMEN MENARIK LAINNYA (HTML5 MURNI)        -->
+    <!-- ======================================================= -->
+    <section>
+        <h2><font color="#ff2e63">Fitur Tambahan Pembelajaran</font></h2>
+
+        <!-- Tag Details & Summary (Akordion bawaan HTML murni tanpa JS/CSS) -->
+        <details style="background-color: #1a1a1a; padding: 10px;">
+            <summary><b><font color="#00adb5">Klik di sini untuk melihat FAQ (Pertanyaan Umum)</font></b></summary>
+            <p>
+                <b>Tanya:</b> Apakah halaman ini benar-benar tidak menggunakan CSS eksternal?<br>
+                <b>Jawab:</b> Benar, halaman ini menggunakan atribut HTML standar bawaan seperti
+                <code>border</code>, <code>bgcolor</code>, <code>font</code>, dan <code>align</code> dengan skema warna yang *strong* dan *bold*.
+            </p>
+        </details>
+    </section>
+
+    <hr size="1" color="#ff2e63">
+
+    <!-- ======================================================= -->
+    <!-- 7. FOOTER                                               -->
+    <!-- ======================================================= -->
+    <footer align="center">
+        <p>
+            <a href="#atas"><font color="#00adb5">▲ Kembali ke Bagian Paling Atas</font></a>
+        </p>
+        <p>
+            <small>
+                Hak Cipta &copy; 2026 AZZA SIGMA - Dibuat untuk Latihan Pembelajaran HTML Dasar.
+            </small>
+        </p>
+    </footer>
+
+</body>
+
+</html>
